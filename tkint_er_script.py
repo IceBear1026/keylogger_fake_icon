@@ -10,7 +10,7 @@ from PIL import ImageTk, Image
 import subprocess
 
 # a function that calls "python3 /etc/the_code" command in the background without manually on terminal.
-def run_script():
+def run_script(event):
     subprocess.Popen(["python3","/etc/the_code.py"])
 
 # calling root as tk class object
