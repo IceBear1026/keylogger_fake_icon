@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=python3 /etc/tkint_er_script.py
+Name=An Image
+Icon=/etc/image.png
